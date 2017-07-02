@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Season Title Editor for Plex",
+  "description": "Add a title edit control for seasons in Plex",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": [ "*://app.plex.tv/web*" ],
+      "js": [
+        "jquery-3.2.1.min.js",
+        "main.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "http://*/"
+  ]
+}
