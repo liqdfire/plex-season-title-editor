@@ -3,7 +3,7 @@
 
   "name": "Season Title Editor for Plex",
   "description": "Add a title edit control for seasons in Plex",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "content_scripts": [
     {
       "matches": [ "*://app.plex.tv/web*" ],
